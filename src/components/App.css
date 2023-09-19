@@ -1,0 +1,20 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SearchBar {
+  margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 5px;
+  box-sizing: border-box;
+  top: 80px;
+  z-index: 2;
+}

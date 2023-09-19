@@ -1,0 +1,51 @@
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.Card:hover {
+    cursor: pointer;
+}
+
+.Card {
+    color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 250px;
+    height: 200px;
+    padding: 16px;
+    margin: 10px;
+    padding-bottom: 100px;
+    
+}
+
+.Card img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover; 
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+
+
+.card-text {
+    background-color: var(--component-color);
+    color: var(--text-color);
+
+    width: 90%;
+    height: auto;
+    justify-content: space-around;
+    align-items: baseline;
+    display: block;
+    flex-direction: column;
+    margin: -7px;
+    padding-left: 25px;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+}

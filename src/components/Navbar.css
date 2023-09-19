@@ -1,0 +1,31 @@
+.Navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background-color: var(--component-color);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color);
+    padding: 0px 65px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.darkMode {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.darkMode:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 375px) {
+    .logo{
+        display: none;
+    }
+}

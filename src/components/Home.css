@@ -1,0 +1,29 @@
+    .bar-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100vw;
+        padding-left: 55px;
+        padding-right: 55px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        z-index: 1000;
+        top: 80px;
+
+    }
+
+    @media (max-width: 375px) {
+        .bar-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+
+    /* .searchBar {
+        position: fixed;
+    } */
+
+  
