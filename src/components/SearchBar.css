@@ -11,3 +11,9 @@
     
 }
 
+@media (max-width: 375px) {
+    .Search {
+        width: 200px;
+        margin-top: 45px;
+    }
+}

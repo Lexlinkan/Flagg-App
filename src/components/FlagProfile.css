@@ -52,3 +52,50 @@ h1 {
     padding-left: 65px;
     
 }
+
+@media (max-width: 375px) {
+    h1 {
+        padding-bottom: 5px;
+    }
+    .Flag-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Arrow {
+        width: 25px;
+        height: 25px;
+    }
+
+    .arrow-back{
+        color: var(--text-color);
+        font-size: medium;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 50px;
+        padding-left: 50px;
+    }
+    .Image {
+        width: 350px;
+        height: 350px;
+        border-radius: 75px;
+    }
+    .label {
+        font-size: small;
+        font-weight: 200;
+    }
+
+    .vänster{
+        padding-left: 50px;
+    }
+    .höger {
+        padding-right: 130px;
+        margin-top: -80px;
+    }
+
+
+}

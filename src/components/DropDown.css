@@ -12,6 +12,7 @@
 
 @media (max-width: 375px) {
     .dropdown {
-        display: block;
+        width: 170px;
+        margin-top: 15px;
     }
 }

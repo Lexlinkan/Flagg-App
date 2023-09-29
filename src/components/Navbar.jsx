@@ -17,7 +17,7 @@ export default function Navbar({ toggleDarkMode, isDarkMode }) {
       />
       <div className="darkMode" onClick={toggleDarkMode} >
         <img className="moon" onClick={toggleDarkMode} src={isDarkMode ? darkMoon : moon} alt="moon" />
-        <h3 className="dark-mode" onClick={toggleDarkMode}>
+        <h3 className="darkmode" onClick={toggleDarkMode}>
           {isDarkMode ? "Dark Mode" : "Light Mode"}
         </h3>
       </div>

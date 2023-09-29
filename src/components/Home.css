@@ -3,7 +3,7 @@
         align-items: center;
         justify-content: space-between;
         flex-direction: row;
-        width: 100vw;
+        width: 100%;
         padding-left: 55px;
         padding-right: 55px;
         box-sizing: border-box;
@@ -19,11 +19,9 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            font-size: small;
+            padding-left: 5px;
+            padding-right: 5px;
         }
     }
-
-    /* .searchBar {
-        position: fixed;
-    } */
-
   
